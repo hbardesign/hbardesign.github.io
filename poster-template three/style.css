@@ -1,0 +1,61 @@
+body {
+    background-color:rgb(61, 61, 61);
+}
+
+@font-face {
+    font-family:'blehfont3';
+    src:url('infini-romain.woff') format('woff');
+}
+
+div.poster {
+    background-color: rgb(0, 0, 0);
+    width: 75%;
+}
+
+div.text {
+    font-size: 60px;
+    text-align: center;
+    font-family:'blehfont3';
+}
+
+/* rule 1 */
+div.text.one {
+    background-color:blueviolet;
+}
+div.text.two {
+    background-color:blue;
+}
+div.text.three {
+    background-color: black;
+}
+
+
+/* rule 2 */
+div.text.a {
+    color:chartreuse;
+}
+
+div.text.b {
+    color:yellow;
+}
+div.text.c {
+    color:white;
+}
+
+
+/* rule 3 */
+div.text.x {
+    font-size: 30px;
+}
+div.text.y {
+    font-size: 60px;
+}
+div.text.z {
+    font-size: 100px;
+}
+
+div.small {
+    text-align: center;
+    color: white;
+
+}

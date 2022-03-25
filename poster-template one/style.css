@@ -1,0 +1,64 @@
+body {
+    background-color:coral;
+}
+
+@font-face {
+    font-family:'blehfont';
+    src:url('PicNic-Regular.woff') format('woff');
+}
+
+div.poster {
+    background-color: white;
+    width: 75%;
+}
+
+div.text {
+    font-size: 85px;
+    text-align: center;
+    font-family:'blehfont';
+}
+
+/* rule 1 */
+div.text.one {
+    font-size: 30px;
+}
+div.text.two {
+    font-size: 60px;
+}
+div.text.three {
+    font-size: 150;
+}
+div.text.four {
+    font-size:30px ;
+}
+
+/* rule 2 */
+div.text.a {
+    color: coral;
+}
+
+div.text.b {
+    color: seagreen;
+}
+div.text.d {
+    color: coral;
+}
+div.text.f {
+    color: seagreen;
+}
+
+/* rule 3 */
+div.text.x {
+    font-style: normal;
+}
+div.text.y {
+    font-style: italic;
+}
+div.text.z {
+    font-style: bold;
+}
+
+div.small {
+    text-align: center;
+
+}
