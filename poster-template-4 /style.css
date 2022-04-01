@@ -1,0 +1,90 @@
+body {
+    background-color:coral;
+}
+
+div.poster {
+
+    width: 100%;
+}
+
+div.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+
+}
+
+div.col {
+    width: 50%;
+    overflow:hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+
+}
+div.logo {
+    font-size: 50px;
+}
+div.w1-4 {
+    width: 25%;
+}
+div.w2-4 {
+    width: 50%;
+}
+
+
+
+
+div.text {
+    font-size: 85px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* rule 1 */
+div.text.one {
+    font-size: 30px;
+}
+div.text.two {
+    font-size: 50px;
+}
+div.text.three {
+    font-size: 150;
+}
+div.text.four {
+    font-size:30px ;
+}
+
+/* rule 2 */
+div.text.a {
+    color: coral;
+}
+
+div.text.b {
+    color: seagreen;
+}
+div.text.d {
+    color: coral;
+}
+div.text.f {
+    color: seagreen;
+}
+
+/* rule 3 */
+div.text.x {
+    background-color: blue;
+}
+div.text.y {
+    background-color: blueviolet;
+}
+div.text.z {
+    background-color: burlywood;
+}
+
+div.small {
+    text-align: center;
+
+}

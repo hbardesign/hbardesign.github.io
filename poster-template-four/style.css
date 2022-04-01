@@ -45,8 +45,10 @@ div.text.c {
 
 
 /* rule 3 */
-div.text.x {
+div.text.x.gradient {
     font-size: 60px;
+    background: radial-gradient(circle,yellow,red);
+    
 }
 div.text.y {
     font-size: 60px;
@@ -59,4 +61,7 @@ div.small {
     text-align: center;
     color: white;
 
+}
+div.skew {
+    width: 300px;
 }
