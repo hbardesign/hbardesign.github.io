@@ -1,17 +1,18 @@
 body {
-    background-color:coral;
+    background-color:rgb(0, 0, 0);
 }
 
 div.poster {
-
     width: 100%;
+    background-image: url('bleh.webp');
+    background-position: center;
+    background-size: cover;
 }
 
 div.container {
     display: flex;
     flex-wrap: wrap;
     align-items: stretch;
-
 }
 
 div.col {
@@ -20,11 +21,8 @@ div.col {
     display: flex;
     align-items: center;
     justify-content: center;
-
-
-
-
 }
+
 div.logo {
     font-size: 50px;
 }
@@ -35,9 +33,6 @@ div.w2-4 {
     width: 50%;
 }
 
-
-
-
 div.text {
     font-size: 85px;
     text-align: center;
@@ -46,45 +41,48 @@ div.text {
 
 /* rule 1 */
 div.text.one {
-    font-size: 30px;
+    font-size: 35px;
 }
 div.text.two {
-    font-size: 50px;
+    font-size: 85px;
 }
 div.text.three {
-    font-size: 150;
+    font-size: 140;
 }
-div.text.four {
-    font-size:30px ;
-}
+
 
 /* rule 2 */
 div.text.a {
-    color: coral;
+    color: rgb(255, 136, 0);
 }
 
 div.text.b {
-    color: seagreen;
+    color: rgb(0, 0, 0);
 }
-div.text.d {
-    color: coral;
+
+div.text.c {
+    color: rgb(255, 255, 255);
 }
-div.text.f {
-    color: seagreen;
-}
+
 
 /* rule 3 */
 div.text.x {
-    background-color: blue;
+    
+
+
+
 }
 div.text.y {
-    background-color: blueviolet;
+    text-shadow: 5px;
+
 }
 div.text.z {
-    background-color: burlywood;
+
 }
 
 div.small {
+    text-align: left;
+    color: white;
     text-align: center;
-
+    
 }
