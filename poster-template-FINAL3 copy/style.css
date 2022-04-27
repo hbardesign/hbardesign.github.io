@@ -1,0 +1,62 @@
+body {
+background-color: black;
+}
+
+div.poster {
+    width: 100%;
+}
+
+div.text {
+    border: 3px;
+    border-style: solid;
+    border-color: white;
+    color: white;
+}
+
+div.text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 50px;
+    background-image:url('gradient.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+    transition: 1.5s;
+}
+
+/* rule 1 */
+DIV.ONE {
+    transform: rotate(90deg);
+}
+div.two {
+    transform: rotate(-90deg);
+}
+div.three {
+    transform: none;
+}
+
+/* rule 2 */
+div.text.a {
+    font-size: 50px;
+}
+div.text.b {
+    font-size: 100px;
+}
+div.text.c {
+    font-size: 125px;
+}
+
+
+/* rule 3 */
+div.x {
+    text-align: center;
+}
+div.y {
+    text-align: left;
+}
+div.z {
+    text-align: right;
+}
+
