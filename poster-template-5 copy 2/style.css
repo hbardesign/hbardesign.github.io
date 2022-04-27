@@ -7,9 +7,7 @@ div.poster {
 }
 
 div.text {
-    border: 3px;
-    border-style: solid;
-    border-color: white;
+
 }
 
 div.text {
@@ -17,7 +15,7 @@ div.text {
     font-weight: bold;
     text-align: center;
     margin: 50px;
-    background-image:url('gradient.jpg');
+    background-image:url('newspaper.jpg');
     background-size: cover;
     background-attachment: fixed;
     -webkit-background-clip: text;
@@ -27,13 +25,13 @@ div.text {
 
 /* rule 1 */
 DIV.ONE {
-    transform: rotate(90deg);
+
 }
 div.two {
-    transform: rotate(-90deg);
+
 }
 div.three {
-    transform: none;
+
 }
 
 /* rule 2 */
@@ -50,12 +48,12 @@ div.text.c {
 
 /* rule 3 */
 div.x {
-    text-align: center;
+
 }
 div.y {
-    text-align: left;
+
 }
 div.z {
-    text-align: right;
+
 }
 

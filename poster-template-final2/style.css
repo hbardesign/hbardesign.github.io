@@ -43,12 +43,15 @@ div.text {
 /* rule 1 */
 div.text.one {
     font-size: 30px;
+    line-height: 30px;
 }
 div.text.two {
     font-size: 60px;
+    line-height: 60px;
 }
 div.text.three {
     font-size: 150;
+    
 }
 
 
@@ -79,14 +82,4 @@ div.text.y {
 
 div.text.z {
     background-color: black
-}
-
-
-div.small {
-    text-align: right;
-    color: white;
-}
-div.small2 {
-    text-align: left;
-    color: white;
 }

@@ -1,5 +1,5 @@
 body {
-    background-color:coral;
+    background-color:rgb(0, 0, 0);
 }
 
 @font-face {
@@ -8,8 +8,8 @@ body {
 }
 
 div.poster {
-    background-color: white;
-    width: 75%;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
 }
 
 div.text {
@@ -26,26 +26,22 @@ div.text.two {
     font-size: 60px;
 }
 div.text.three {
-    font-size: 150;
+    font-size: 115;
 }
-div.text.four {
-    font-size:30px ;
-}
+
 
 /* rule 2 */
 div.text.a {
-    color: coral;
+    color: rgb(0, 0, 0);
 }
 
 div.text.b {
-    color: seagreen;
+    color: rgb(0, 255, 110);
 }
 div.text.d {
-    color: coral;
+    color: rgb(255, 0, 208);
 }
-div.text.f {
-    color: seagreen;
-}
+
 
 /* rule 3 */
 div.text.x {
@@ -60,5 +56,5 @@ div.text.z {
 
 div.small {
     text-align: center;
-
+    font-family: Arial, Helvetica, sans-serif;
 }
