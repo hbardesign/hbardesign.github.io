@@ -3,86 +3,61 @@ body {
 }
 
 div.poster {
-    width: 100%;
-    background-image: url('bleh.webp');
-    background-position: center;
-    background-size: cover;
-}
-
-div.container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: stretch;
-}
-
-div.col {
-    width: 50%;
-    overflow:hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-div.logo {
-    font-size: 50px;
-}
-div.w1-4 {
-    width: 25%;
-}
-div.w2-4 {
-    width: 50%;
+    background-image:url('fog.jpg');
+    background-size:cover;
+    background-position: 100%;
 }
 
 div.text {
-    font-size: 85px;
+    color: white;
     text-align: center;
+    transition: 5s;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 20px;
+}
+
+div.header {
+    color: transparent;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 0 0 5px white;
+    letter-spacing: 50px;
 }
 
 /* rule 1 */
-div.text.one {
-    font-size: 35px;
+div.one {
+    color: transparent;
+    text-shadow: 0 0 10px white;
 }
-div.text.two {
-    font-size: 85px;
+div.two {
+    color: transparent;
+    text-shadow: 0 0 35px white;
 }
-div.text.three {
-    font-size: 140;
+div.three {
+    color: transparent;
+    text-shadow: 0 0 20px rgb(255, 255, 255);
 }
-
 
 /* rule 2 */
 div.text.a {
-    color: rgb(255, 136, 0);
+    font-size: 75px;
 }
-
 div.text.b {
-    color: rgb(0, 0, 0);
+    font-size: 100px;
 }
-
 div.text.c {
-    color: rgb(255, 255, 255);
+    font-size: 200px;
 }
-
 
 /* rule 3 */
-div.text.x {
-    
-
-
-
+div.x {
+    font-style: normal;
 }
-div.text.y {
-    text-shadow: 5px;
-
+div.y {
+    font-style: oblique;
 }
-div.text.z {
-
-}
-
-div.small {
-    text-align: left;
-    color: white;
-    text-align: center;
+div.z {
+    font-style: inherit;
     
 }
+
