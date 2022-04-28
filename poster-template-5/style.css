@@ -2,42 +2,41 @@ body {
     background-color:rgb(0, 0, 0);
 }
 
-div.header {
-    text-align: center, top;
-    color: white;
-}
-
 div.poster {
-    width: 100%;
-    background-image:url('space.jpeg');
-    background-size:auto;
-    border-radius: 50%;
-    border-width: 50%;
+    background-image:url('fog.jpg');
+    background-size:cover;
+    background-position: 100%;
 }
-
 
 div.text {
     color: white;
     text-align: center;
-    margin-top: 100px;
-    transition: 6s;
+    transition: 5s;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 20px;
+}
+
+div.header {
+    color: transparent;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 0 0 5px white;
+    letter-spacing: 50px;
 }
 
 /* rule 1 */
 div.one {
     color: transparent;
-    text-shadow: 0 0 5px white;
+    text-shadow: 0 0 10px white;
 }
 div.two {
     color: transparent;
-    text-shadow: 0 0 25px white;
+    text-shadow: 0 0 35px white;
 }
 div.three {
     color: transparent;
-    text-shadow: 0 0 10px rgb(255, 255, 255);
+    text-shadow: 0 0 20px rgb(255, 255, 255);
 }
-
 
 /* rule 2 */
 div.text.a {
@@ -50,7 +49,15 @@ div.text.c {
     font-size: 200px;
 }
 
-
 /* rule 3 */
-
+div.x {
+    font-style: normal;
+}
+div.y {
+    font-style: oblique;
+}
+div.z {
+    font-style: inherit;
+    
+}
 

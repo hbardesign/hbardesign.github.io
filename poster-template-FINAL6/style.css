@@ -8,8 +8,12 @@ body {
 }
 
 div.poster {
-    background-color: rgb(0, 0, 0);
-    width: 75%;
+    width: 100%;
+    border: 20px;
+    border-color: white;
+    border-style: solid;
+    border-image: linear-gradient(45deg, yellow, blue) 1;
+    background-size: 100%;
 }
 
 div.text {
@@ -20,48 +24,39 @@ div.text {
 
 /* rule 1 */
 div.text.one {
-    outline: ;
+    rotate: 180deg;
 }
 div.text.two {
-    outline: invert;
+    rotate: 0deg;
 }
 div.text.three {
-    outline: auto;
-    outline-color: white;
+    rotate: -180deg;
 }
-
 
 /* rule 2 */
 div.text.a {
-    color:tomato;
+    color:yellow;
 }
-
 div.text.b {
-    color:brown;
+    color:blue;
 }
 div.text.c {
     color:white;
 }
 
-
 /* rule 3 */
-div.text.x.gradient {
-    font-size: 60px;
-    background: radial-gradient(circle,yellow,red);
-    
+div.x {
+    font-size: 100px;
 }
-div.text.y {
-    font-size: 60px;
+div.y {
+    font-size: 65px;
 }
-div.text.z {
-    font-size: 60px;
+div.z {
+    font-size: 45px;
 }
 
 div.small {
     text-align: center;
     color: white;
-
-}
-div.skew {
-    width: 300px;
+    font-family: 'Courier New', Courier, monospace;
 }
