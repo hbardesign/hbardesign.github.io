@@ -2,12 +2,6 @@ body {
     background-color:rgb(0, 0, 0);
 }
 
-@font-face {
-    font-family:'blehfont2';
-    src:url('Exetegue-Regular.woff') format('woff');
-
-}
-
 div.poster {
     background-color: rgb(0, 0, 0);
     width: 100%;
@@ -17,19 +11,18 @@ div.poster {
 div.text {
     font-size: 85px;
     text-align: center;
-    font-family:'blehfont2', Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
 
 /* rule 1 */
 div.text.one {
-    font-size: 30px;
+    font-size: 35px;
 }
 div.text.two {
     font-size: 60px;
 }
 div.text.three {
-    font-size: 160;
+    font-size: 140;
 }
 
 /* rule 2 */
@@ -45,13 +38,13 @@ div.text.c {
 
 /* rule 3 */
 div.text.x {
-    text-align: center;
+    letter-spacing: normal;
 }
 div.text.y {
-    text-align: left;
+    letter-spacing: -5px;
 }
 div.text.z {
-    text-align: right;
+    letter-spacing: 15px;
 }
 
 div.small {
