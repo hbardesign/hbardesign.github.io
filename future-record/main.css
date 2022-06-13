@@ -1,16 +1,22 @@
 body {
-    background-color: rgb(167, 167, 167);
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    background-repeat: repeat;
     font-size: 24px;
+    font-family: 'plant';
+}
+
+@font-face {
+    font-family:'plant';
+    src:url('plant.woff')format(woff); 
 }
 
 a {
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
 a:hover {
-    color: rgb(255, 123, 0);
+    color: deeppink;
 }
 
 img {
@@ -20,20 +26,25 @@ img {
 div.header {
     display: flex;
     flex-wrap: wrap;
+    position:fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
 }
 
 div.header a {
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 div.header a:hover {
-    color: rgb(255, 123, 0);
+    color:deeppink;
 }
 
 div.logo {
     padding: 10px;
     width: 50%;
     border-bottom: 1px solid rgb(255, 255, 255);
+    color: white;
 }
 
 div.nav {
@@ -41,24 +52,33 @@ div.nav {
     width: 50%;
     text-align: right;
     border-bottom: 1px solid rgb(255, 255, 255);
+    color: white;
 }
 
 div.masthead {
-    font-size: 40vw; 
+    font-size: 30vw; 
     line-height: 35vw;
-    color: rgb(255, 111, 0);
+    width: 60%;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 div.about {
-    font-family: 'Times New Roman', Times, serif;
+    font-family:'plant';
     font-size: 72px;
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
 }
 
 div.footnotes {
     display:flex;
     flex-wrap: wrap;
-    border-top: 1px solid rgb(255, 255, 255);
-    margin-top: 15px;
+    border-style:dotted;
+    margin-top: 40px;
+    color: white;
+    background-color: rgb(14, 14, 14);
 }
 
 div.note {
@@ -66,20 +86,33 @@ div.note {
     padding: 20px;
     font-size: 16px;
     font-weight: bold;
+    color: white;
 }
+
+div.bottomnote {
+    width: 33.333%;
+    padding: 20px;
+    font-size: 16px;
+    color: white;
+    line-height: 40px;
+}
+ 
 
 div.title {
     font-size: 144px;
     font-weight: bold;
     text-align: center;
     margin-top: 50px;
+    color: deeppink;
 }
 
 div.keywords {
-    font-size: 72px;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 62px;
+    font-family: plant ;
     font-weight: normal;
     text-align: center;
+    margin-bottom: 40px;
+    color: white;
 }
 
 div.container {
@@ -88,28 +121,65 @@ div.container {
     align-items: flex-end;
 }
 
+div.container1 {
+    display: inline-flex;
+    width: 100%;
+}
+
 div.item {
     width: 33.333%;
     padding: 3px;
     text-align: center;
-    color: black;
+    color: white;
+}
+
+div.itemfeature {
+    width: 50%;
+    padding: 10px;
+    color: white;
+    text-align: left;
+    margin-top: 1px;
+    margin-bottom: 20px;
+    font-size: 2.8vw;
 }
 
 div.item.feature {
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 div.number {
     font-size: 55px;
+    color: deeppink;
+    border: 3px white solid;
+    border-style: dotted;
+    margin-bottom: 20px;
 }
 
 div.featureimage {
-    width: 50%;
+    width: 20%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 40px;
 }
 
 div.title.feature {
-    color: rgb(255, 123, 0);
+    color: yellow;
     padding-bottom: 40px;
+}
+
+div.title.feature.instaa {
+    color: deeppink;
+}
+
+div.banner {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 10%;
+    padding: 3px;
+}
+
+div.aboutitem {
+    text-align: center;
+    color: white;
+    font-size: 42px;
 }
